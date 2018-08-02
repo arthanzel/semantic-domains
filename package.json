@@ -2,7 +2,7 @@
   "name": "semantic-domains",
   "description": "List of semantic domains from semdom.org, version 4",
   "repository": "https://github.com/arthanzel/semantic-domains",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "files": [
     "index.js",
