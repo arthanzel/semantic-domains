@@ -34,6 +34,10 @@ test('findChildren()', () => {
     expect(sd.findChildren()).toEqual([]);
 });
 
+test('findRoots()', () => {
+    expect(sd.findRoots()).toHaveLength(9);
+});
+
 test('Can require json directly', () => {
     const full = require('../domains.json');
     expect(Array.isArray(full)).toBe(true);
