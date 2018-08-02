@@ -22,6 +22,7 @@ The default export includes a few functions to search and index semantic domains
 `findAllChildren(id)`: Returns an array of all children, grandchildren, etc. of a semantic domain with the given ID.
 `findById(id)`: Finds and returns a semantic domain by ID.
 `findChildren(id)`: Returns an array of immediate children of a semantic domain with the given ID.
+`findRoots()`: Returns an array of top-level semantic domains.
 `buildIndex()`: Returns an hash that includes all semantic domains, keyed by their IDs.
 
 Compatibility
